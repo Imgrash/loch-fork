@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55f6bad419504d54a9ae37d143453a81, type: 3}
+  m_Name: HoldHeightParams
+  m_EditorClassIdentifier: 
+  RideHeight: 0.28
+  DownDir: {x: 0, y: -1, z: 0}
+  RideSpringDamper: 3000
+  RideSpringStrength: 70000
+  WeightCenterMaxDistance: 0.2

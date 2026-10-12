@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 471ed568f4a02cc479e3afb5e3e0114f, type: 3}
+  m_Name: LochParams
+  m_EditorClassIdentifier: 
+  interactByMovingLayerMask:
+    serializedVersion: 2
+    m_Bits: 119
+  jumpForce: 600
+  fallMultiplier: 3
+  lowJumpMultiplier: 8
+  topJumpLength: 0.4
+  jumpForceFromGrab: 150
+  coyoteTime: 0.15
+  jumpBufferTime: 0.15
+  minGroundCheckRadius: 0.08
+  maxGroundCheckRadius: 0.12
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 119
+  forwardHangRayOffsetForward: 0.17
+  forwardHangRayOffset: 1.44
+  downwardHangRayOffsetForward: 0.36
+  downwardHangRayOffset: 1.6
+  raycastDistanceForwardHang: 0.33
+  raycastDistanceDownwardHang: 0.24
+  maxSpeed: 5
+  rotationSpeed: 10
+  Acceleration: 200
+  AccelerationFactorFromDot:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -1
+      value: 2
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MaxAccelerationForceFromFactorDot:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -1
+      value: 2
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MaxAccelForce: 150
+  ForceScale: {x: 1, y: 0, z: 1}
+  AirborneAcceleration: 20
+  WeightCenterMaxDistance: 0.2
+  sphereLandCheckRadius: 0.01
+  minRaycastLandCheckDistanceWhileJump: 0.1
+  minRayCastLandCheckDistanceSetting: 0.7
+  DownDir: {x: 0, y: -1, z: 0}
+  RideSpringDamper: 3000
+  RideSpringStrength: 40000
+  RideHeight: 0.28
+  DistanceToGroundIK: 0.06
+  startDistanceFromBottom: 0.2
+  sphereCastRadius: 0.25
+  sphereCastDistance: 0.75
+  raycastLength: 0.95
+  rayOriginOffset1: {x: -0.2, y: 0.2, z: 0.16}
+  rayOriginOffset2: {x: 0.2, y: 0.2, z: -0.16}

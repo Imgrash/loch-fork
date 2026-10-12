@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/bar_scene.unity
+    guid: 356de2f8bb22db14ebcff0a6231e1c79
+  - enabled: 0
+    path: Assets/Scenes/level_room.unity
+    guid: 3971b5942a711824db55e8ed9c78d64a
+  - enabled: 0
+    path: Assets/Scenes/level_prob.unity
+    guid: 67298d84f5eab9343a92429c0770b75e
+  - enabled: 0
+    path: Assets/Scenes/bar_mech.unity
+    guid: e5b56c349277206418bc8c412769ea0a
+  - enabled: 0
+    path: Assets/Scenes/level_boss_big.unity
+    guid: 103178c64b4dd794aa4f852ca7de8486
+  - enabled: 0
+    path: Assets/Scenes/level_boss.unity
+    guid: c309e84a8a67c3a4fb809517738963cb
+  - enabled: 0
+    path: Assets/Scenes/bar_scene_new.unity
+    guid: 84b68f2ccdab6af4087d0b402ad2dae5
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/TestMovingPlatforms/TestMovingPlatformsScene.unity
+    guid: 67094341fd4e1c64f875551fe6a6d9b9
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: e285f49b6b6799945b63cdd502a391a2,
+      type: 2}
